@@ -15,6 +15,8 @@ Guidance for managing day-to-day execution and tracking progress toward project 
   - Include issue link and acceptance criteria in PR description
   - Run automated tests and linting in CI before requesting review
   - Require at least one approval before merging (or team-defined policy)
+- **UX Designer collaboration**: Designers review PRs that implement UI changes to ensure design specifications are met before merging
+- **QA Lead collaboration**: QA reviews feature branches or PRs in the QA column to validate acceptance criteria before marking as Done
 
 ## Quality & Testing
 - Unit tests for new logic
@@ -22,6 +24,8 @@ Guidance for managing day-to-day execution and tracking progress toward project 
 - End-to-end smoke tests for critical flows before release
 - Security scanning in CI
 - Manual QA for feature acceptance when needed
+- **QA Lead**: Defines test strategy, coordinates test execution, and provides sign-off on feature readiness
+- **UX Designer**: Validates that implemented features match design specifications and user experience requirements during QA phase
 
 ## Reporting & Metrics
 - Track velocity and burndown
